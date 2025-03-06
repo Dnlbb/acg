@@ -30,7 +30,6 @@ def draw_star():
     gl.glPushMatrix()
     gl.glRotatef(rotation_angle, 0, 0, 1)
 
-    # Заливка звезды
     gl.glBegin(gl.GL_TRIANGLES)
     gl.glColor3f(1.0, 0.5, 0.0)
 
