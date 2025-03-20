@@ -120,7 +120,7 @@ def special_keys(key, x, y):
     glutPostRedisplay()
 
 def init():
-    glClearColor(0.9, 0.9, 0.9, 1.0)  # Светлый фон
+    glClearColor(0.9, 0.9, 0.9, 1.0)
     glEnable(GL_DEPTH_TEST)
     glShadeModel(GL_SMOOTH)
 
